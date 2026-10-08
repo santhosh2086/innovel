@@ -97,7 +97,7 @@ const toolColors: Record<string, string> = {
   Linux: '#FCC624', Docker: '#2496ED', 'AWS concepts': '#232F3E', 'CI/CD concepts': '#4B5563',
   Figma: '#F24E1E', FigJam: '#9747FF', 'Adobe XD': '#FF61F6', Photoshop: '#31A8FF', Illustrator: '#FF9A00', 'Premiere Pro': '#9999FF',
   'Civil CAD workflows': '#E11F26', 'Mechanical CAD workflows': '#E11F26',
-  Analytics: '#E37400', 'SEO tools': '#0F9D58', 'CI/CD': '#D24939', 'CI/CD concepts': '#D24939', 'Mechanical CAD': '#E11F26',
+Analytics: '#E37400', 'SEO tools': '#0F9D58', 'CI/CD': '#D24939', 'Mechanical CAD': '#E11F26',
 }
 
 

@@ -67,6 +67,101 @@ export const placementContent = {
 export const placementPage = {
   meta: {
     title: 'Placements | INNOVEL Training & Placement',
-    description: 'INNOVEL institute placement information, placed student records, hiring companies and approved placement statistics.'
-  }
+    description:
+      'INNOVEL institute placement information, placed student records, hiring companies and approved placement statistics.',
+  },
+
+  hero: {
+    eyebrow: 'Placement',
+    intro:
+      'Career-focused training designed to help learners build practical skills, present their work with confidence and prepare for the next step.',
+    primary: 'ENQUIRE NOW',
+    secondary: {
+      label: 'VIEW COURSES',
+      to: '/courses',
+    },
+  },
+
+  journey: {
+    eyebrow: 'Career journey',
+    title: 'From learning to career.',
+    steps: ['Learn', 'Practice', 'Build', 'Prepare', 'Career'],
+  },
+
+  prep: {
+    eyebrow: 'Career preparation',
+    title: 'Build confidence for the next step.',
+    blocks: [
+      {
+        name: 'Learn',
+        text: 'Build foundational knowledge in your chosen discipline.',
+      },
+      {
+        name: 'Practice',
+        text: 'Apply concepts through structured exercises.',
+      },
+      {
+        name: 'Build',
+        text: 'Work on practical projects and develop a portfolio.',
+      },
+      {
+        name: 'Prepare',
+        text: 'Develop confidence for career opportunities.',
+      },
+    ],
+  },
+
+  approach: {
+    intro:
+      'INNOVEL focuses on practical learning, portfolio development, interview readiness and career guidance as part of the learner journey.',
+  },
+
+  cta: {
+    titleLines: ['Ready for your', 'next step?'],
+    intro:
+      'Explore our courses and connect with INNOVEL to understand the training and career support available.',
+    primary: 'ENQUIRE NOW',
+    secondary: {
+      label: 'VIEW COURSES',
+      to: '/courses',
+    },
+  },
+
+  domains: {
+    eyebrow: 'Career domains',
+    title: 'Training across multiple disciplines.',
+    intro:
+      'Explore courses across IT, Design and Architectural training domains.',
+    taglines: {} as Record<string, string>,
+    linkLabel: 'VIEW COURSES',
+  },
+
+  faq: {
+    eyebrow: 'FAQs',
+    title: 'Placement questions.',
+    reuseIds: [] as readonly string[],
+    extra: [] as Array<{
+      id: string
+      question: string
+      answer: string
+    }>,
+    viewAll: {
+      label: 'VIEW ALL FAQs',
+      to: '/faqs',
+    },
+  },
+
+  support: {
+    eyebrow: 'Career support',
+    title: 'Support throughout the learning journey.',
+    areas: [
+      'Practical project guidance',
+      'Portfolio development',
+      'Interview preparation',
+      'Communication and presentation support',
+      'Career guidance',
+    ],
+    note:
+      'Support is structured around the learner’s chosen course and the opportunities relevant to that domain.',
+  },
 } as const
